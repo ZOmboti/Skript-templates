@@ -1,0 +1,11 @@
+command /replace_with_command_name:
+#Note: add arguments after "/replace_with_command_name" with <text>, <number>, <player> etc.
+#Note: no need for quotes anywhere here.
+	permission: your.permission
+	#Note: permission can be anything, it does not need to require "." or anything, just simple "eatfood" works.
+	permission message: Use this to display message if player does not have the required permission.
+	cooldown: 1s
+	cooldown message: Make this anything you want it to be.
+	description: Use this to describe your command.
+	trigger:
+		#rest of the code below

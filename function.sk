@@ -1,0 +1,11 @@
+function your.function(custom.variable: text)
+	#rest of the code below
+	#Note: use the custom variable set in () previously to call whats in the () when you call the function.
+	#example:
+	#function test(a: number)
+	# send {_a}
+	#
+	#on join:
+		#test(3)
+		#this will send "3" to player in chat.
+		
