@@ -1,0 +1,11 @@
+#variables
+#set variables inside of an event statement
+on first join:
+	set {your.variable} to "x"
+	#Note: can be set to a boolean, number or string, if boolean or number just simply write it out, but if its string but it between "'set
+	set {coins::player} to 0
+	#Note: use "::player" to tie it to a player, this now isnt a global variable therefore its different amount for everyone
+	
+on respawn:
+	add -1 to {coins::player}
+	#Note: dont use "remove" as thats invalid syntax, add negative amount to take from a variable

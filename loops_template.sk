@@ -1,0 +1,14 @@
+#loop all players
+on join:
+	loop all players:
+		#Rest of the code below
+		#Note: to use the loop-player as placeholder use it like this:
+		teleport loop-player to {spawn}
+		
+#loop x times
+on respawn:
+	loop 100 times:
+		#Rest of the code below
+		#example:
+		send "" to player
+		#Note: looping a big chunk of code many times may cause lag.
